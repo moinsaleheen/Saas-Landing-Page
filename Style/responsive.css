@@ -1,0 +1,3519 @@
+/* Laptop Responsive Screen */
+
+@media (max-width: 768px) {
+  .navbar .logo {
+    width: 130px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .logo img {
+    width: 130px;
+    height: 70px;
+  }
+
+  .navbar .link {
+    width: 490px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .link ul {
+    width: 360px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    gap: 4px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .link ul li {
+    width: 79.9px;
+    height: 70px;
+    font-weight: 400;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .btns {
+    width: 160px;
+    height: 70px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .btns .btnone {
+    width: 55px;
+    height: 45px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #ffe492;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+  }
+
+  .global .text h1 {
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .global .text p {
+    width: 300px;
+    height: 60px;
+    display: flex;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .customise .text h1 {
+    width: 300px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .customise .text p {
+    width: 300px;
+    height: 70px;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .addtocard .plantext h1 {
+    width: 600px;
+    margin: 0%;
+    color: black;
+    font-size: 35px;
+  }
+
+  .addtocard .plantext p {
+    width: 600px;
+    margin: 0%;
+    color: black;
+    font-size: 16px;
+  }
+
+  .addtocard .cards {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    gap: 10px;
+  }
+
+  .addtocard .cards .card-one {
+    width: 230px;
+    height: 560px;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-two {
+    width: 230px;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 8px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-two .card-text {
+    height: 550px;
+  }
+
+  .addtocard .cards .card-three {
+    width: 230px;
+    height: 560px;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .work .text {
+    width: 65%;
+    height: 260px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .work .text h1 {
+    width: 470px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0%;
+  }
+
+  .work .text p {
+    width: 470px;
+    height: 60px;
+    text-align: center;
+    line-height: 15px;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .data .text {
+    width: 40%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+  }
+
+  .data .text h1 {
+    width: 300px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .data .text p {
+    width: 300px;
+    height: 90px;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .sponsors .sponsors-compnies ul {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    gap: 70px;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies ul li {
+    width: 140px;
+    height: 140px;
+    display: flex;
+    text-align: center;
+  }
+
+  .sponsors .sponsors-compnies ul li img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .social-connect .text h1 {
+    width: 300px;
+    height: 135px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .social-connect .text p {
+    width: 300px;
+    height: 70px;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .reviews .reviews-cards {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    gap: 40px;
+  }
+
+  .reviews .reviews-cards .card-one {
+    width: 200px;
+    height: 270px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    align-items: center;
+    border: 1px solid #4f9cf9;
+    background-color: #4f9cf9;
+  }
+
+  .reviews .reviews-cards .card-one .card-text {
+    width: 200px;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+
+  .reviews .reviews-cards .card-one .card-text i {
+    font-size: 40px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text p {
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile {
+    width: 200px;
+    height: 200px;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile img {
+    width: 40px;
+    height: 40px;
+    border-radius: 50px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile h1 {
+    width: 150px;
+    height: 20px;
+    font-size: 12px;
+    color: black;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile p {
+    width: 150px;
+    height: 30px;
+    font-size: 12px;
+    color: rgb(206, 209, 209);
+    margin: 0%;
+  }
+
+  .footer .all-deserved ul {
+    width: 470px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved ul li {
+    width: 60px;
+    height: 60px;
+    text-align: center;
+    font-size: 12px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .footer .all-deserved .social-icon ul {
+    width: 240px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+}
+
+@media (max-width: 375px) {
+  .navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .navbar .logo {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .logo img {
+    width: 80px;
+    height: 50px;
+  }
+
+  .navbar .link {
+    width: 324px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .link ul {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .link ul li {
+    width: 50px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .btns {
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .btns .btnone {
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 8px;
+    border: 2px solid black;
+    background-color: #ffe492;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+  }
+
+  .btns .btntwo {
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-size: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #4f9cf9;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroSection .text {
+    width: 85%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .heroSection .text h1 {
+    width: 350px;
+    height: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .heroSection .text p {
+    width: 350px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0%;
+  }
+
+  .heroSection .text button {
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    box-shadow: 2px 2px 8px black;
+    color: black;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection .img {
+    width: 85%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+
+  .heroSection .img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .teamManagement {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamManagement .text {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamManagement .text h1 {
+    width: 260px;
+    height: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .teamManagement .text p {
+    width: 250px;
+    height: 70px;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .teamManagement .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamManagement .teamwork-img {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .teamManagement .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .global {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .global .text {
+    width: 62%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .global .text h1 {
+    width: 260px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .global .text p {
+    width: 260px;
+    height: 90px;
+    display: flex;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .global .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .global .teamwork-img {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .global .teamwork-img img {
+    width: 85%;
+    height: 400px;
+  }
+
+  .extension {
+    width: 100%;
+    height: 550px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .extension .text {
+    width: 62%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .extension .text h1 {
+    width: 250px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .extension .text p {
+    width: 250px;
+    height: 70px;
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .extension .teamwork-img {
+    width: 62%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .extension .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .customise {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .customise .text {
+    width: 62%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .customise .text h1 {
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .customise .text p {
+    width: 240px;
+    height: 80px;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .customise .teamwork-img {
+    width: 62%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  .customise .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .addtocard {
+    width: 100%;
+    height: 600px;
+  }
+
+  .addtocard .plantext h1 {
+    width: 300px;
+    height: 40px;
+    margin: 0%;
+    color: black;
+    font-size: 30px;
+  }
+
+  .addtocard .plantext p {
+    width: 400px;
+    height: 40px;
+    margin: 0%;
+    color: black;
+    font-size: 12px;
+  }
+
+  .addtocard .cards {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .addtocard .cards .card-one {
+    width: 250;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .addtocard .cards .card-one .card-text {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .addtocard .cards .card-one h3 {
+    margin: 0%;
+    font-size: 14px;
+  }
+
+  .addtocard .cards .card-one h1 {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .addtocard .cards .card-one p b {
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-one p {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-one button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two {
+    width: 260px;
+    height: 400px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-two .card-text {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .addtocard .cards .card-two h3 {
+    margin: 0%;
+    font-size: 14px;
+  }
+
+  .addtocard .cards .card-two h1 {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .addtocard .cards .card-two p b {
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two p {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    gap: 2px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-three .card-text {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .addtocard .cards .card-three h3 {
+    margin: 0%;
+    font-size: 14px;
+  }
+
+  .addtocard .cards .card-three h1 {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .addtocard .cards .card-three p b {
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three p {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .work {
+    width: 100%;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .work .text {
+    width: 85%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .work .text h1 {
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .work .text p {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 15px;
+    margin: 0%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .work .text button {
+    width: 130px;
+    min-height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    color: black;
+  }
+
+  .work .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .data {
+    width: 100%;
+    height: 600px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .data .text {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .data .text h1 {
+    width: 300px;
+    height: 55px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .data .text p {
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .data .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .data .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .data .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+  .sponsors {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsors .sponsor-text {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+
+  .sponsors .sponsor-text h1 {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sponsors .sponsors-compnies ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    gap: 10px;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies ul li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+  }
+
+  .sponsors .sponsors-compnies ul li img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-connect {
+    width: 100%;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-connect .text {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-connect .text h1 {
+    width: 280px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .social-connect .text p {
+    width: 280px;
+    height: 40px;
+    margin: 0%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .social-connect .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-connect .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-connect .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .reviews .reviews-text {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+  }
+
+  .reviews .reviews-text h1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin: 0%;
+    font-weight: 600;
+  }
+
+  .reviews .reviews-cards {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .reviews .reviews-cards .card-one {
+    width: 110px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    align-items: center;
+    border: 1px solid #4f9cf9;
+    background-color: #4f9cf9;
+  }
+
+  .reviews .reviews-cards .card-one .card-text {
+    width: 90px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+
+  .reviews .reviews-cards .card-one .card-text i {
+    font-size: 10px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text p {
+    font-size: 10px;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile h1 {
+    width: 80%;
+    height: 10px;
+    font-size: 6px;
+    color: black;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile p {
+    width: 70px;
+    height: 20px;
+    font-size: 8px;
+    color: rgb(206, 209, 209);
+    margin: 0%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 460px;
+    background-color: #043873;
+    font-display: flex;
+    flex-direction: column;
+  }
+
+  .footer .footer-text {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer .footer-text h1 {
+    width: 250px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .footer .footer-text p {
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .footer .footer-text button {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background-color: #4f9cf9;
+    text-align: center;
+  }
+
+  .footer .footer-text ul {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .footer .footer-text ul li {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  .footer hr {
+    width: 95%;
+    height: 1px;
+    border: none;
+    background-color: rgba(212, 212, 212, 0.233);
+  }
+
+  .footer .all-deserved {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .footer .all-deserved ul {
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved ul li {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .footer .all-deserved .social-icon {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul li {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+}
+
+@media (max-width: 425px) {
+  .navbar {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .navbar .logo {
+    width: 80px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .logo img {
+    width: 80px;
+    height: 50px;
+  }
+
+  .navbar .link {
+    width: 324px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .link ul {
+    width: 180px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    gap: 2px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .link ul li {
+    width: 50px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 7px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .btns {
+    width: 110px;
+    height: 50px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .btns .btnone {
+    width: 40px;
+    height: 20px;
+    border-radius: 10px;
+    font-size: 8px;
+    border: 2px solid black;
+    background-color: #ffe492;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+  }
+
+  .btns .btntwo {
+    width: 90px;
+    height: 30px;
+    color: white;
+    font-size: 8px;
+    border-radius: 10px;
+    border: 2px solid black;
+    background-color: #4f9cf9;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+    display: flex;
+    gap: 4px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroSection .text {
+    width: 85%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .heroSection .text h1 {
+    width: 350px;
+    height: 50px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .heroSection .text p {
+    width: 350px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    margin: 0%;
+  }
+
+  .heroSection .text button {
+    width: 150px;
+    height: 50px;
+    font-weight: 400;
+    font-size: 12px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    box-shadow: 2px 2px 8px black;
+    color: black;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection .img {
+    width: 85%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+
+  .heroSection .img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .teamManagement {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamManagement .text {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamManagement .text h1 {
+    width: 260px;
+    height: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .teamManagement .text p {
+    width: 250px;
+    height: 70px;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .teamManagement .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamManagement .teamwork-img {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .teamManagement .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .global {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .global .text {
+    width: 62%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .global .text h1 {
+    width: 260px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .global .text p {
+    width: 260px;
+    height: 90px;
+    display: flex;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .global .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .global .teamwork-img {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .global .teamwork-img img {
+    width: 85%;
+    height: 400px;
+  }
+
+  .extension {
+    width: 100%;
+    height: 550px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .extension .text {
+    width: 62%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .extension .text h1 {
+    width: 250px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .extension .text p {
+    width: 250px;
+    height: 70px;
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .extension .teamwork-img {
+    width: 62%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .extension .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .customise {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .customise .text {
+    width: 62%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .customise .text h1 {
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .customise .text p {
+    width: 240px;
+    height: 80px;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .customise .teamwork-img {
+    width: 62%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  .customise .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .addtocard {
+    width: 100%;
+    height: 600px;
+  }
+
+  .addtocard .plantext h1 {
+    width: 300px;
+    height: 40px;
+    margin: 0%;
+    color: black;
+    font-size: 30px;
+  }
+
+  .addtocard .plantext p {
+    width: 400px;
+    height: 40px;
+    margin: 0%;
+    color: black;
+    font-size: 12px;
+  }
+
+  .addtocard .cards {
+    width: 100%;
+    height: 480px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .addtocard .cards .card-one {
+    width: 250;
+    height: 320px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .addtocard .cards .card-one .card-text {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .addtocard .cards .card-one h3 {
+    margin: 0%;
+    font-size: 14px;
+  }
+
+  .addtocard .cards .card-one h1 {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .addtocard .cards .card-one p b {
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-one p {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-one button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two {
+    width: 260px;
+    height: 400px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-two .card-text {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .addtocard .cards .card-two h3 {
+    margin: 0%;
+    font-size: 14px;
+  }
+
+  .addtocard .cards .card-two h1 {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .addtocard .cards .card-two p b {
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two p {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    gap: 2px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three {
+    width: 250px;
+    height: 350px;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-three .card-text {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .addtocard .cards .card-three h3 {
+    margin: 0%;
+    font-size: 14px;
+  }
+
+  .addtocard .cards .card-three h1 {
+    margin: 0%;
+    font-size: 30px;
+  }
+
+  .addtocard .cards .card-three p b {
+    font-weight: 600;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three p {
+    font-weight: 400;
+    font-size: 10px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three button {
+    width: 70px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .work {
+    width: 100%;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .work .text {
+    width: 85%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .work .text h1 {
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .work .text p {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 15px;
+    margin: 0%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .work .text button {
+    width: 130px;
+    min-height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    color: black;
+  }
+
+  .work .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .data {
+    width: 100%;
+    height: 600px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .data .text {
+    width: 80%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .data .text h1 {
+    width: 300px;
+    height: 55px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .data .text p {
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .data .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .data .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .data .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+  .sponsors {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsors .sponsor-text {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+
+  .sponsors .sponsor-text h1 {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sponsors .sponsors-compnies ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    gap: 10px;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies ul li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+  }
+
+  .sponsors .sponsors-compnies ul li img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-connect {
+    width: 100%;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-connect .text {
+    width: 80%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-connect .text h1 {
+    width: 280px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .social-connect .text p {
+    width: 280px;
+    height: 40px;
+    margin: 0%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .social-connect .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-connect .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-connect .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .reviews .reviews-text {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+  }
+
+  .reviews .reviews-text h1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin: 0%;
+    font-weight: 600;
+  }
+
+  .reviews .reviews-cards {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .reviews .reviews-cards .card-one {
+    width: 110px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    align-items: center;
+    border: 1px solid #4f9cf9;
+    background-color: #4f9cf9;
+  }
+
+  .reviews .reviews-cards .card-one .card-text {
+    width: 90px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+
+  .reviews .reviews-cards .card-one .card-text i {
+    font-size: 10px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text p {
+    font-size: 10px;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile h1 {
+    width: 80%;
+    height: 10px;
+    font-size: 6px;
+    color: black;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile p {
+    width: 70px;
+    height: 20px;
+    font-size: 8px;
+    color: rgb(206, 209, 209);
+    margin: 0%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 460px;
+    background-color: #043873;
+    font-display: flex;
+    flex-direction: column;
+  }
+
+  .footer .footer-text {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer .footer-text h1 {
+    width: 250px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .footer .footer-text p {
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .footer .footer-text button {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background-color: #4f9cf9;
+    text-align: center;
+  }
+
+  .footer .footer-text ul {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .footer .footer-text ul li {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  .footer hr {
+    width: 95%;
+    height: 1px;
+    border: none;
+    background-color: rgba(212, 212, 212, 0.233);
+  }
+
+  .footer .all-deserved {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .footer .all-deserved ul {
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved ul li {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .footer .all-deserved .social-icon {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul li {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+}
+
+/* Mobile Responsive Screen */
+
+@media (max-width: 320px) {
+  .navbar {
+    width: 100%;
+    height: 30px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .navbar .logo {
+    width: 40px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .navbar .logo img {
+    width: 40px;
+    height: 30px;
+  }
+
+  .navbar .link {
+    width: 250px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  }
+
+  .link ul {
+    width: 150px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    gap: 1px;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .link ul li {
+    width: 30px;
+    height: 30px;
+    font-weight: 400;
+    font-size: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    gap: 2px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .container .btns {
+    width: 80px;
+    height: 30px;
+    display: flex;
+    align-items: center;
+    gap: 2px;
+  }
+
+  .btns .btnone {
+    width: 35px;
+    height: 20px;
+    border-radius: 5px;
+    font-size: 5px;
+    border: 2px solid black;
+    background-color: #ffe492;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+  }
+
+  .btns .btntwo {
+    width: 60px;
+    height: 20px;
+    color: white;
+    font-size: 5px;
+    border-radius: 5px;
+    border: 2px solid black;
+    background-color: #4f9cf9;
+    box-shadow: 2px 2px 8px black;
+    padding: 0%;
+    display: flex;
+    gap: 3px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection {
+    width: 100%;
+    height: 500px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .heroSection .text {
+    width: 85%;
+    height: 350px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .heroSection .text h1 {
+    width: 100%;
+    height: 70px;
+    font-weight: 600;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    font-size: 20px;
+    margin: 0%;
+  }
+
+  .heroSection .text p {
+    width: 100%;
+    height: 40px;
+    text-align: center;
+    font-weight: 400;
+    font-size: 10px;
+    margin: 0%;
+  }
+
+  .heroSection .text button {
+    width: 130px;
+    height: 40px;
+    font-weight: 400;
+    font-size: 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    box-shadow: 2px 2px 8px black;
+    color: black;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .heroSection .img {
+    width: 85%;
+    height: 350px;
+    display: flex;
+    align-items: center;
+  }
+
+  .heroSection .img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .teamManagement {
+    width: 100%;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamManagement .text {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .teamManagement .text h1 {
+    width: 260px;
+    height: 80px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .teamManagement .text p {
+    width: 250px;
+    height: 70px;
+    margin: 0%;
+    font-size: 12px;
+    font-weight: 400;
+  }
+
+  .teamManagement .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .teamManagement .teamwork-img {
+    width: 60%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .teamManagement .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .global {
+    width: 100%;
+    height: 650px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .global .text {
+    width: 80%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .global .text h1 {
+    width: 260px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 39px;
+    margin: 0%;
+  }
+
+  .global .text p {
+    width: 260px;
+    height: 90px;
+    display: flex;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .global .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .global .teamwork-img {
+    width: 85%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .global .teamwork-img img {
+    width: 85%;
+    height: 400px;
+  }
+
+  .extension {
+    width: 100%;
+    height: 550px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+  }
+
+  .extension .text {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .extension .text h1 {
+    width: 250px;
+    height: 50px;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .extension .text p {
+    width: 250px;
+    height: 70px;
+    margin: 0%;
+    font-size: 14px;
+    font-weight: 400;
+  }
+
+  .extension .teamwork-img {
+    width: 62%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .extension .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .customise {
+    width: 100%;
+    height: 550px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .customise .text {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .customise .text h1 {
+    width: 230px;
+    height: 50px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .customise .text p {
+    width: 240px;
+    height: 80px;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .customise .teamwork-img {
+    width: 62%;
+    height: 400px;
+    display: flex;
+    align-items: center;
+  }
+
+  .customise .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .addtocard {
+    width: 100%;
+    height: 500px;
+  }
+
+  .addtocard .plantext h1 {
+    width: 100%;
+    height: 40px;
+    margin: 0%;
+    color: black;
+    font-size: 30px;
+  }
+
+  .addtocard .plantext p {
+    width: 250px;
+    height: 50px;
+    margin: 0%;
+    color: black;
+    font-size: 12px;
+  }
+
+  .addtocard .cards {
+    width: 100%;
+    height: 350px;
+    display: flex;
+    gap: 5px;
+  }
+
+  .addtocard .cards .card-one {
+    width: 250px;
+    height: 280px;
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+    gap: 5px;
+  }
+
+  .addtocard .cards .card-one .card-text {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .addtocard .cards .card-one h3 {
+    margin: 0%;
+    font-size: 10px;
+  }
+
+  .addtocard .cards .card-one h1 {
+    margin: 0%;
+    font-size: 25px;
+  }
+
+  .addtocard .cards .card-one p b {
+    font-weight: 600;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-one p {
+    font-weight: 400;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-one button {
+    width: 55px;
+    height: 25px;
+    border-radius: 10px;
+    font-size: 8px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two {
+    width: 260px;
+    height: 320px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 20px;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-two .card-text {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 3px;
+  }
+
+  .addtocard .cards .card-two h3 {
+    margin: 0%;
+    font-size: 10px;
+  }
+
+  .addtocard .cards .card-two h1 {
+    margin: 0%;
+    font-size: 25px;
+  }
+
+  .addtocard .cards .card-two p b {
+    font-weight: 600;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two p {
+    font-weight: 400;
+    font-size: 8px;
+    display: flex;
+    gap: 2px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-two button {
+    width: 55px;
+    height: 22px;
+    border-radius: 8px;
+    font-size: 8px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three {
+    width: 250px;
+    height: 300px;
+    display: flex;
+    border: 1px solid wheat;
+    border-radius: 30px;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .addtocard .cards .card-three .card-text {
+    width: 80%;
+    height: 250px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  .addtocard .cards .card-three h3 {
+    margin: 0%;
+    font-size: 10px;
+  }
+
+  .addtocard .cards .card-three h1 {
+    margin: 0%;
+    font-size: 20px;
+  }
+
+  .addtocard .cards .card-three p b {
+    font-weight: 600;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three p {
+    font-weight: 400;
+    font-size: 8px;
+    display: flex;
+    gap: 5px;
+    margin: 0%;
+  }
+
+  .addtocard .cards .card-three button {
+    width: 55px;
+    height: 25px;
+    border-radius: 8px;
+    font-size: 8px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    margin: 0%;
+  }
+
+  .work {
+    width: 100%;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+  }
+
+  .work .text {
+    width: 100%;
+    height: 250px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 10px;
+  }
+
+  .work .text h1 {
+    width: 300px;
+    height: 50px;
+    font-weight: 600;
+    text-align: center;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .work .text p {
+    width: 300px;
+    height: 60px;
+    text-align: center;
+    line-height: 15px;
+    margin: 0%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .work .text button {
+    width: 130px;
+    min-height: 40px;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+    box-shadow: 2px 2px 5px black;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    color: black;
+  }
+
+  .work .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .work .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .data {
+    width: 100%;
+    height: 600px;
+    color: black;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .data .text {
+    width: 88%;
+    height: 350px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+
+  .data .text h1 {
+    width: 300px;
+    height: 55px;
+    text-align: center;
+    font-weight: 600;
+    font-size: 30px;
+    margin: 0%;
+  }
+
+  .data .text p {
+    width: 300px;
+    height: 90px;
+    text-align: center;
+    margin: 0%;
+    font-size: 16px;
+    font-weight: 400;
+  }
+
+  .data .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .data .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .data .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+  .sponsors {
+    width: 100%;
+    height: 140px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .sponsors .sponsor-text {
+    width: 100%;
+    height: 30px;
+    text-align: center;
+  }
+
+  .sponsors .sponsor-text h1 {
+    width: 100%;
+    height: 50px;
+    font-size: 30px;
+    font-weight: 600;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies {
+    width: 100%;
+    height: 60px;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .sponsors .sponsors-compnies ul {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0%;
+    gap: 10px;
+    margin: 0%;
+  }
+
+  .sponsors .sponsors-compnies ul li {
+    width: 60px;
+    height: 60px;
+    display: flex;
+    text-align: center;
+  }
+
+  .sponsors .sponsors-compnies ul li img {
+    width: 60px;
+    height: 60px;
+  }
+
+  .social-connect {
+    width: 100%;
+    height: 600px;
+    background-color: #043873;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-connect .text {
+    width: 88%;
+    height: 200px;
+    display: flex;
+    gap: 5px;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .social-connect .text h1 {
+    width: 280px;
+    height: 60px;
+    font-weight: 600;
+    font-size: 25px;
+    margin: 0%;
+  }
+
+  .social-connect .text p {
+    width: 280px;
+    height: 40px;
+    margin: 0%;
+    font-size: 10px;
+    font-weight: 400;
+  }
+
+  .social-connect .text button {
+    width: 120px;
+    min-height: 50px;
+    padding: 5px 10px 5px 10px;
+    border-radius: 10px;
+    border: 1px solid #4f9cf9;
+    background-color: white;
+    box-shadow: 2px 2px 5px black;
+    color: black;
+    display: flex;
+    gap: 8px;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .social-connect .teamwork-img {
+    width: 80%;
+    height: 300px;
+    display: flex;
+    align-items: center;
+  }
+
+  .social-connect .teamwork-img img {
+    width: 100%;
+    height: 300px;
+  }
+
+  .reviews {
+    width: 100%;
+    height: 320px;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+  }
+
+  .reviews .reviews-text {
+    width: 100%;
+    height: 80px;
+    display: flex;
+    justify-content: center;
+    align-items: end;
+    text-align: center;
+  }
+
+  .reviews .reviews-text h1 {
+    width: 100%;
+    height: 50px;
+    text-align: center;
+    color: black;
+    font-size: 30px;
+    margin: 0%;
+    font-weight: 600;
+  }
+
+  .reviews .reviews-cards {
+    width: 100%;
+    height: 220px;
+    display: flex;
+    justify-content: center;
+    gap: 10px;
+  }
+
+  .reviews .reviews-cards .card-one {
+    width: 110px;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    border-radius: 10px;
+    box-shadow: 2px 2px 8px black;
+    align-items: center;
+    border: 1px solid #4f9cf9;
+    background-color: #4f9cf9;
+  }
+
+  .reviews .reviews-cards .card-one .card-text {
+    width: 90px;
+    height: 150px;
+    display: flex;
+    flex-direction: column;
+    gap: 2px;
+  }
+
+  hr {
+    width: 100%;
+    height: 1px;
+    border: none;
+    background-color: rgba(255, 255, 255, 0.274);
+  }
+
+  .reviews .reviews-cards .card-one .card-text i {
+    font-size: 10px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text p {
+    font-size: 10px;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile {
+    width: 100%;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 5px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile img {
+    width: 15px;
+    height: 15px;
+    border-radius: 50px;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile h1 {
+    width: 80%;
+    height: 10px;
+    font-size: 6px;
+    color: black;
+    margin: 0%;
+  }
+
+  .reviews .reviews-cards .card-one .card-text .profile p {
+    width: 70px;
+    height: 20px;
+    font-size: 8px;
+    color: rgb(206, 209, 209);
+    margin: 0%;
+  }
+
+  .footer {
+    width: 100%;
+    height: 460px;
+    background-color: #043873;
+    font-display: flex;
+    flex-direction: column;
+  }
+
+  .footer .footer-text {
+    width: 100%;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+  }
+
+  .footer .footer-text h1 {
+    width: 250px;
+    height: 70px;
+    color: white;
+    font-size: 30px;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .footer .footer-text p {
+    width: 300px;
+    height: 40px;
+    color: white;
+    font-size: 12px;
+    margin: 0%;
+    text-align: center;
+  }
+
+  .footer .footer-text button {
+    width: 180px;
+    height: 30px;
+    border-radius: 10px;
+    font-size: 12px;
+    color: white;
+    border: none;
+    background-color: #4f9cf9;
+    text-align: center;
+  }
+
+  .footer .footer-text ul {
+    width: 300px;
+    height: 70px;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    margin: 0%;
+    padding: 0%;
+  }
+
+  .footer .footer-text ul li {
+    width: 50px;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size: 30px;
+    color: white;
+  }
+
+  .footer hr {
+    width: 95%;
+    height: 1px;
+    border: none;
+    background-color: rgba(212, 212, 212, 0.233);
+  }
+
+  .footer .all-deserved {
+    width: 90%;
+    height: 40px;
+    display: flex;
+    color: white;
+    justify-content: space-around;
+  }
+
+  .footer .all-deserved ul {
+    width: 190px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved ul li {
+    width: 50px;
+    height: 40px;
+    text-align: center;
+    font-size: 6px;
+    align-items: center;
+    text-align: center;
+    display: flex;
+  }
+
+  .footer .all-deserved .social-icon {
+    width: 120px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul {
+    width: 150px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+
+  .footer .all-deserved .social-icon ul li {
+    width: 30px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    padding: 0%;
+    align-items: center;
+    margin: 0%;
+  }
+}

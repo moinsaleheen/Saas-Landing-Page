@@ -1,0 +1,1125 @@
+body {
+  padding: 0%;
+  margin: 0%;
+}
+
+.container {
+  width: 100%;
+  height: 550px;
+  background-color: #043873;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.navbar {
+  width: 100%;
+  height: 70px;
+  display: flex;
+  color: white;
+  justify-content: space-around;
+}
+
+.navbar .logo {
+  width: 220px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.navbar .logo img {
+  width: 220px;
+  height: 70px;
+}
+
+.navbar .link {
+  width: 680px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.link ul {
+  width: 440px;
+  height: 70px;
+  display: flex;
+  justify-content: center;
+  gap: 8px;
+  margin: 0%;
+  padding: 0%;
+}
+
+.link ul li {
+  width: 90px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 16px;
+  text-decoration: none;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  display: flex;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+}
+
+.link ul li:hover {
+  color: #4f9cf9;
+  text-decoration: underline;
+  cursor: pointer;
+}
+
+.container .btns {
+  width: 200px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+}
+
+.btns .btnone {
+  width: 70px;
+  height: 45px;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #ffe492;
+  box-shadow: 2px 2px 8px black;
+  padding: 0%;
+}
+
+.btns .btnone:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.btns .btntwo {
+  width: 140px;
+  height: 45px;
+  color: white;
+  border-radius: 10px;
+  border: 2px solid black;
+  background-color: #4f9cf9;
+  box-shadow: 2px 2px 8px black;
+  padding: 0%;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.btns .btntwo:hover {
+  color: black;
+  background-color: #ffe492;
+  cursor: pointer;
+}
+
+.heroSection {
+  width: 100%;
+  height: 450px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.heroSection .text {
+  width: 40%;
+  height: 450px;
+  color: white;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.heroSection .text h1 {
+  width: 410px;
+  height: 110px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.heroSection .text p {
+  width: 380px;
+  height: 60px;
+  font-weight: 400;
+  font-size: 16px;
+  margin: 0%;
+}
+
+.heroSection .text button {
+  width: 170px;
+  height: 70px;
+  font-weight: 400;
+  font-size: 16px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  box-shadow: 2px 2px 8px black;
+  color: black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.heroSection .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.heroSection .img {
+  width: 40%;
+  height: 450px;
+  display: flex;
+  align-items: center;
+}
+
+.heroSection .img img {
+  width: 100%;
+  height: 400px;
+}
+
+.teamManagement {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.teamManagement .text {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.teamManagement .text h1 {
+  width: 410px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.teamManagement .text p {
+  width: 410px;
+  height: 70px;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.teamManagement .text button {
+  width: 120px;
+  min-height: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  color: black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.teamManagement .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.teamManagement .teamwork-img {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.teamManagement .teamwork-img img {
+  width: 100%;
+  height: 300px;
+}
+
+.global {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.global .text {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.global .text h1 {
+  width: 410px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.global .text p {
+  width: 410px;
+  height: 70px;
+  display: flex;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.global .text button {
+  width: 120px;
+  min-height: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  color: black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.global .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.global .teamwork-img {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.global .teamwork-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.extension {
+  width: 100%;
+  height: 380px;
+  background-color: #043873;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+}
+
+.extension .text {
+  width: 40%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.extension .text h1 {
+  width: 410px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.extension.text p {
+  width: 410px;
+  height: 70px;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.extension .text button {
+  width: 120px;
+  min-height: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  color: black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.extension .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.extension .teamwork-img {
+  width: 40%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.extension .teamwork-img img {
+  width: 100%;
+  height: 300px;
+}
+
+.customise {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+  gap: 5px;
+}
+
+.customise .text {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.customise .text h1 {
+  width: 410px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.customise .text p {
+  width: 410px;
+  height: 70px;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.customise .text button {
+  width: 120px;
+  min-height: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  color: black;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.customise .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.customise .teamwork-img {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.customise .teamwork-img img {
+  width: 100%;
+  height: 300px;
+}
+
+.addtocard {
+  width: 100%;
+  height: 750px;
+}
+
+.addtocard .plantext {
+  width: 100%;
+  height: 120px;
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.addtocard .plantext h1 {
+  margin: 0%;
+  color: black;
+  font-size: 35px;
+}
+
+.addtocard .plantext p {
+  width: 770px;
+  margin: 0%;
+  color: black;
+  font-size: 16px;
+}
+
+.addtocard .cards {
+  width: 100%;
+  height: 550px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 90px;
+}
+
+.addtocard .cards .card-one {
+  width: 270px;
+  height: 500px;
+  display: flex;
+  border: 1px solid wheat;
+  border-radius: 30px;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addtocard .cards .card-text {
+  width: 80%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addtocard .cards .card-one h3 {
+  margin: 0%;
+}
+
+.addtocard .cards .card-one h1 {
+  margin: 0%;
+}
+
+.addtocard .cards .card-one p {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  gap: 5px;
+  margin: 0%;
+}
+
+.addtocard .cards .card-one button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  margin: 0%;
+}
+
+.addtocard .cards .card-two {
+  width: 270px;
+  height: 550px;
+  background-color: #043873;
+  color: white;
+  display: flex;
+  border: 1px solid wheat;
+  border-radius: 30px;
+  box-shadow: 2px 2px 8px black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addtocard .cards .card-two .card-text {
+  width: 80%;
+  height: 510px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addtocard .cards .card-two h3 {
+  margin: 0%;
+}
+
+.addtocard .cards .card-two h1 {
+  margin: 0%;
+  color: #ffe492;
+}
+
+.addtocard .cards .card-two p {
+  font-weight: 400;
+  font-size: 16px;
+  display: flex;
+  gap: 10px;
+  margin: 0%;
+}
+
+.addtocard .cards .card-two p i {
+  color: #ffe492;
+}
+
+.addtocard .cards .card-two button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  border: 1px solid #4f9cf9;
+  margin: 0%;
+}
+
+.addtocard .cards .card-three {
+  width: 270px;
+  height: 500px;
+  display: flex;
+  border: 1px solid wheat;
+  border-radius: 30px;
+  box-shadow: 2px 2px 8px black;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.addtocard .cards .card-text {
+  width: 80%;
+  height: 460px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.addtocard .cards .card-three h3 {
+  margin: 0%;
+}
+
+.addtocard .cards .card-three h1 {
+  margin: 0%;
+}
+
+.addtocard .cards .card-three p {
+  font-weight: 400;
+  font-size: 12px;
+  display: flex;
+  gap: 5px;
+  margin: 0%;
+}
+
+.addtocard .cards .card-three button {
+  width: 130px;
+  height: 40px;
+  border-radius: 10px;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  border: 1px solid #4f9cf9;
+  margin: 0%;
+}
+
+.work {
+  width: 100%;
+  height: 320px;
+  background-color: #043873;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.work .text {
+  width: 65%;
+  height: 240px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.work .text h1 {
+  width: 470px;
+  height: 50px;
+  font-weight: 600;
+  font-size: 35px;
+  margin: 0%;
+}
+
+.work .text p {
+  width: 700px;
+  height: 50px;
+  text-align: center;
+  line-height: 15px;
+  margin: 0%;
+  font-size: 12px;
+  font-weight: 400;
+}
+
+.work .text button {
+  width: 140px;
+  min-height: 50px;
+  background-color: white;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  box-shadow: 2px 2px 5px black;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  color: black;
+}
+
+.work .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.work .teamwork-img {
+  width: 10%;
+  height: 300px;
+  position: relative;
+  bottom: 80px;
+}
+
+.work .teamwork-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.data {
+  width: 100%;
+  height: 380px;
+  color: black;
+  display: flex;
+  justify-content: space-around;
+}
+
+.data .text {
+  width: 40%;
+  height: 380px;
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.data .text h1 {
+  width: 410px;
+  height: 100px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.data .text p {
+  width: 410px;
+  height: 70px;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.data .text button {
+  width: 120px;
+  min-height: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  color: black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.data .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.data .teamwork-img {
+  width: 40%;
+  height: 380px;
+  display: flex;
+  align-items: center;
+}
+
+.data .teamwork-img img {
+  width: 100%;
+  height: 300px;
+}
+
+.sponsors {
+  width: 100%;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+.sponsors .sponsor-text {
+  width: 100%;
+  height: 50px;
+  text-align: center;
+}
+
+.sponsors .sponsor-text h1 {
+  width: 100%;
+  height: 50px;
+  font-size: 40px;
+  font-weight: 600;
+  margin: 0%;
+}
+
+.sponsors .sponsors-compnies {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+}
+
+.sponsors .sponsors-compnies ul {
+  width: 100%;
+  height: 140px;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding: 0%;
+  gap: 120px;
+  margin: 0%;
+}
+
+.sponsors .sponsors-compnies ul li {
+  width: 134px;
+  height: 140px;
+  display: flex;
+  text-align: center;
+}
+
+.sponsors .sponsors-compnies ul li img {
+  width: 134px;
+  height: 140px;
+}
+
+.social-connect {
+  width: 100%;
+  height: 400px;
+  background-color: #043873;
+  color: white;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row-reverse;
+}
+
+.social-connect .text {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  flex-direction: column;
+}
+
+.social-connect .text h1 {
+  width: 410px;
+  height: 135px;
+  font-weight: 600;
+  font-size: 39px;
+  margin: 0%;
+}
+
+.social-connect .text p {
+  width: 410px;
+  height: 70px;
+  margin: 0%;
+  font-size: 16px;
+  font-weight: 400;
+}
+
+.social-connect .text button {
+  width: 120px;
+  min-height: 50px;
+  padding: 5px 10px 5px 10px;
+  border-radius: 10px;
+  border: 1px solid #4f9cf9;
+  background-color: white;
+  box-shadow: 2px 2px 5px black;
+  color: black;
+  display: flex;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+}
+
+.social-connect .text button:hover {
+  color: white;
+  background-color: #4f9cf9;
+  cursor: pointer;
+}
+
+.social-connect .teamwork-img {
+  width: 40%;
+  height: 400px;
+  display: flex;
+  align-items: center;
+}
+
+.social-connect .teamwork-img img {
+  width: 100%;
+  height: 400px;
+}
+
+.reviews {
+  width: 100%;
+  height: 450px;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.reviews .reviews-text {
+  width: 100%;
+  height: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+}
+
+.reviews .reviews-text h1 {
+  text-align: center;
+  color: black;
+  font-size: 40px;
+  margin: 0%;
+  font-weight: 600;
+}
+
+.reviews .reviews-cards {
+  width: 100%;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  gap: 80px;
+}
+
+.reviews .reviews-cards .card-one {
+  width: 265px;
+  height: 290px;
+  display: flex;
+  justify-content: center;
+  border-radius: 10px;
+  box-shadow: 2px 2px 8px black;
+  align-items: center;
+  border: 1px solid #4f9cf9;
+  background-color: #4f9cf9;
+}
+
+.reviews .reviews-cards .card-one .card-text {
+  width: 250px;
+  height: 250px;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+hr {
+  width: 100%;
+  height: 1px;
+  border: none;
+  background-color: rgba(255, 255, 255, 0.274);
+}
+
+.reviews .reviews-cards .card-one .card-text i {
+  font-size: 40px;
+}
+
+.reviews .reviews-cards .card-one .card-text p {
+  margin: 0%;
+}
+
+.reviews .reviews-cards .card-one .card-text .profile {
+  width: 100%;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.reviews .reviews-cards .card-one .card-text .profile img {
+  width: 50px;
+  height: 50px;
+  border-radius: 50px;
+}
+
+.reviews .reviews-cards .card-one .card-text .profile h1 {
+  width: 180px;
+  height: 30px;
+  font-size: 18px;
+  color: black;
+  margin: 0%;
+}
+
+.reviews .reviews-cards .card-one .card-text .profile p {
+  width: 180px;
+  height: 30px;
+  font-size: 12px;
+  color: rgb(206, 209, 209);
+  margin: 0%;
+}
+
+.footer {
+  width: 100%;
+  height: 478px;
+  background-color: #043873;
+  font-display: flex;
+  flex-direction: column;
+}
+
+.footer .footer-text {
+  width: 100%;
+  height: 400px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+}
+
+.footer .footer-text h1 {
+  width: 250px;
+  height: 80px;
+  color: white;
+  font-size: 35px;
+  margin: 0%;
+  text-align: center;
+}
+
+.footer .footer-text p {
+  width: 300px;
+  height: 40px;
+  color: white;
+  font-size: 16px;
+  margin: 0%;
+  text-align: center;
+}
+
+.footer .footer-text button {
+  width: 200px;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 16px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+  color: white;
+  border: none;
+  background-color: #4f9cf9;
+  text-align: center;
+}
+
+.footer .footer-text button:hover {
+  color: black;
+  background-color: white;
+  cursor: pointer;
+}
+
+.footer .footer-text ul {
+  width: 300px;
+  height: 70px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  margin: 0%;
+  padding: 0%;
+}
+
+.footer .footer-text ul li {
+  width: 50px;
+  height: 70px;
+  display: flex;
+  align-items: center;
+  font-size: 40px;
+  color: white;
+}
+
+.footer hr {
+  width: 95%;
+  height: 1px;
+  border: none;
+  background-color: rgba(212, 212, 212, 0.233);
+}
+
+.footer .all-deserved {
+  width: 100%;
+  height: 60px;
+  display: flex;
+  color: white;
+  justify-content: space-between;
+}
+
+.footer .all-deserved ul {
+  width: 530px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  align-items: center;
+  margin: 0%;
+}
+
+.footer .all-deserved ul li {
+  width: 70px;
+  height: 60px;
+  text-align: center;
+  font-size: 14px;
+  align-items: center;
+  text-align: center;
+  display: flex;
+}
+
+.footer .all-deserved .social-icon {
+  width: 220px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  align-items: center;
+  margin: 0%;
+}
+
+.footer .all-deserved .social-icon ul {
+  width: 220px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  align-items: center;
+  margin: 0%;
+}
+
+.footer .all-deserved .social-icon ul li {
+  width: 60px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  padding: 0%;
+  align-items: center;
+  margin: 0%;
+}
